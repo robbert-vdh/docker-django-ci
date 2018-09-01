@@ -1,4 +1,4 @@
-FROM python-alpine
+FROM python:alpine
 
 MAINTAINER Robbert van der Helm <mail@robbertvanderhelm.nl>
 
