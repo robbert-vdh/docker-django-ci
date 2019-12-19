@@ -9,4 +9,4 @@ RUN apk add --no-cache git openssh-client rsync
 RUN pip install --no-cache-dir pipenv
 
 # Node.js
-RUN apk add --no-cache nodejs yarn build-base autoconf automake
+RUN apk add --no-cache nodejs yarn build-base pkgconfig autoconf automake libtool nasm build-base zlib-dev
