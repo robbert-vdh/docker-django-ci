@@ -9,4 +9,4 @@ RUN apk add --nocache git openssh-client rsync
 RUN pip install --no-cache-dir pipenv
 
 # Node.js
-RUN apk add --nocache nodejs yarn
+RUN apk add --nocache nodejs yarn autoconf
